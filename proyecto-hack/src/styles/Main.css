@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #section_earth {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

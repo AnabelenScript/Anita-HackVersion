@@ -1,0 +1,57 @@
+.containerFlights{
+    height: auto;
+}
+    
+.flight-options{
+    height: fit-content;
+    position:relative;
+    width:79.12vw;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    padding: 20px;
+    left: 20.05%;
+    top:-85vh;
+    
+}
+
+  .sort-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sort-buttons label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sort-buttons input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .flight-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .flight-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .flight-info p {
+    margin: 5px 0;
+  }
+  

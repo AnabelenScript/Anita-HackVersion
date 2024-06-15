@@ -1,0 +1,43 @@
+
+.container{
+  display: flex;
+  min-height: 100%;
+  width: 100vw;
+  position: relative;
+}
+
+#section_options {
+    width: 20%;
+  }
+  
+  .main_options-box {
+    background-color: brown;
+    width: 40vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .option {
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .option:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+  }
+  

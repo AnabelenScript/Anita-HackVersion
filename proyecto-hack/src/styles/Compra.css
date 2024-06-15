@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.payPage{
+    width: 99vw;
+    height: 100vh;
+    background-color: red;
+  }
+
+.payForm{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}

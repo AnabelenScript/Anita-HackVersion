@@ -1,0 +1,42 @@
+
+.containerCompra {
+    position:absolute;
+    width:79.12vw;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    padding: 20px;
+    left: 20%;
+    top:15vh;
+  }
+  
+  .airplane {
+    position: absolute;
+    top: 10%;
+    left: -70px;
+    width: 70px;
+    height: 70px;
+    background: url('../images/airplane2.png') no-repeat center center;
+    background-size: contain;
+    transition: transform 0.8s ease-in-out;
+    transform: translateY(-50%);
+  }
+  
+  .airplane.fly {
+    transform: translate(84.5vw, -50%);
+  }
+  
+  .content {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    text-align: center;
+  }
+  
+  .content.show {
+    opacity: 1;
+  }
+  .contain{
+   border: black 4px;
+    background-color: bisque;
+    width: auto;
+    height: auto;
+  }
