@@ -1,0 +1,152 @@
+.package-options {
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+   width: 79vw;
+   left: 19.9vw;
+   top: -85vh;
+   font-family: "Jost", sans-serif ;
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .jumping-chapulin {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    animation: jumpMove 1.5s forwards;
+  }
+  
+  @keyframes jumpMove {
+    0% {
+      transform: translate(80vw, 0vh);
+    }
+    50% {
+      transform: translate(40vw, -80vh);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .sliding-gusano {
+    top: 60%;
+    width: 20%;
+    position: absolute;
+    right: -100px; /* Empieza fuera de la pantalla a la derecha */
+    animation: slideIn 1s forwards; /* 2s de duración y mantiene la posición final */
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(-87vw); 
+    }
+  }
+  
+  .package-card {
+    margin: 10px 0;
+  }
+  
+  .package-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-popup {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .agave{
+    width: 110px;
+    position: absolute;
+    left: 20vw;
+    top: -7.5vh;
+  }
+.enlace {
+    position: relative; 
+    color: #000; 
+    font-family:"Jost", sans-serif ;
+    background: none;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+.enlace::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: -3px; 
+    width: 0; 
+    height: 2px; 
+    background-color: #000; 
+    transition: width 0.3s; 
+}
+.enlace:hover::after {
+    width: 100%; 
+}
+.alebrije{
+    width: 150px;
+    position: absolute;
+    left: -7vw;
+    top: -8.1vh;
+}
+
+.centroHistorico{
+    width: 47.5%;
+    height: 47.5%;
+    position: absolute;
+    left: 51.3%;
+    top:7.1%;
+    border: 1px;
+}
+.monteAlban{
+    width: 47.5%;
+    height: 47.5%;
+    position: absolute;
+    left: 51.3%;
+    top:26.6%;
+}
+.hierveAgua{
+    width: 47.5%;
+    height: 47.5%;
+    position: absolute;
+    left: 51.3%;
+    top:46.2%;
+}
+
+.package-options ul {
+    list-style-type: none; /* Quitar el estilo de lista (puntos) */
+    padding: 0; /* Eliminar el padding predeterminado de la lista */
+  }
+  
